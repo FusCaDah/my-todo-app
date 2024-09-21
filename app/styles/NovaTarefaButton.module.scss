@@ -1,0 +1,43 @@
+.novaTarefaButton {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    gap: 8px;
+  
+    position: absolute;
+    width: 31.25%;
+    height: 51px;
+    left: calc(50% - 31.25% / 2);
+    top: 75%;
+  
+    background: linear-gradient(90deg, #0796D3 0%, #53C0F0 68.65%);
+    border-radius: 8px;
+    border: none; /* Optional: Remove default button border */
+  
+    /* Adicionar nova tarefa */
+    font-family: 'Inter Tight';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+  
+    cursor: pointer; /* Optional: Change cursor to pointer on hover */
+  
+    /* Optional: Add hover effect */
+    &:hover {
+      opacity: 0.9; /* Slightly reduce opacity on hover */
+    }
+    
+    @media (max-width: 768px){
+      width: 85%;
+      left: calc(50% - 85% / 2);
+      top: 90%;
+
+    }
+  }
+  

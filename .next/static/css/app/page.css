@@ -1,0 +1,580 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!../node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!../node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./app/styles/Header.module.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Header_header__JRJeK {
+  width: 95%;
+  position: absolute;
+  left: 2.5%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  padding: 7px 20px;
+  margin: 0 auto;
+  border-bottom: 1px solid #D7DDE9;
+  background: #FFFFFF;
+  box-sizing: border-box;
+}
+@media (max-width: 768px) {
+  .Header_header__JRJeK {
+    flex-direction: column;
+    width: 85%;
+    top: 24px;
+    left: 7.5%;
+    height: 114px;
+    padding-top: 10px;
+    padding-left: 1px;
+    padding-bottom: 20px;
+  }
+}
+
+.Header_logo__GulZu {
+  width: 150px;
+  height: 36px;
+}
+@media (max-width: 768px) {
+  .Header_logo__GulZu {
+    position: left;
+  }
+}
+
+.Header_welcomeMessage__KXbbM {
+  flex-grow: 1;
+  text-align: center;
+  font-family: "Inter Tight";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29.04px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+@media (max-width: 768px) {
+  .Header_welcomeMessage__KXbbM {
+    font-size: 16px;
+    text-align: left;
+  }
+}
+
+.Header_date__aY1_y {
+  font-family: "Inter Tight";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  color: rgba(0, 0, 0, 0.54);
+}
+@media (max-width: 768px) {
+  .Header_date__aY1_y {
+    font-size: 16px;
+  }
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!../node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!../node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./app/styles/ModalTarefa.module.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.ModalTarefa_modal__k_pfv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 32px;
+  gap: 32px;
+  position: fixed;
+  width: fixed 31.25%;
+  transform: translate(-50%, -50%);
+  height: 250px;
+  top: 50%;
+  left: 50%;
+  background: #FFFFFF;
+  box-shadow: 0px 24px 48px -12px rgba(16, 24, 40, 0.18);
+  border-radius: 16px;
+  z-index: 1000;
+}
+@media (max-width: 768px) {
+  .ModalTarefa_modal__k_pfv {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.ModalTarefa_modalTitle__s9S8l {
+  width: 117px;
+  height: 29px;
+  font-family: "Inter Tight";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+@media (max-width: 768px) {
+  .ModalTarefa_modalTitle__s9S8l {
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    position: absolute;
+    top: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .ModalTarefa_modalForm__XW9Iu {
+    width: 100%;
+  }
+}
+
+.ModalTarefa_inputContainer__A3DGA {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  width: 386px;
+  height: 78px;
+}
+@media (max-width: 768px) {
+  .ModalTarefa_inputContainer__A3DGA {
+    position: absolute;
+    top: 85px;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    width: 100%;
+  }
+}
+
+.ModalTarefa_inputLabel__Ypk1f {
+  width: 386px;
+  font-family: "Inter Tight";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.ModalTarefa_inputField__EykYE {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #D7DDE9;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+@media (max-width: 768px) {
+  .ModalTarefa_inputField__EykYE {
+    width: 68%;
+  }
+}
+
+.ModalTarefa_modal__buttons__DLWMa {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .ModalTarefa_modal__buttons__DLWMa {
+    flex-direction: column;
+    padding-left: 5%;
+    width: 90%;
+  }
+}
+
+.ModalTarefa_buttoncancel__chDWg {
+  width: 185px;
+  height: 51px;
+  padding: 16px 24px;
+  border-radius: 8px;
+  background: #E7EEFB;
+  border: none;
+  font-family: "Inter Tight";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+@media (max-width: 768px) {
+  .ModalTarefa_buttoncancel__chDWg {
+    width: 100%;
+  }
+}
+
+.ModalTarefa_buttonconfirmar__jn0ue {
+  padding: 16px 24px;
+  width: 185px;
+  height: 51px;
+  background: linear-gradient(90deg, #0796D3 0%, #53C0F0 68.65%);
+  border-radius: 8px;
+  border: none;
+  font-family: "Inter Tight";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+@media (max-width: 768px) {
+  .ModalTarefa_buttonconfirmar__jn0ue {
+    width: 100%;
+  }
+}
+
+.ModalTarefa_backdrop__c6Okw {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  z-index: 900;
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!../node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!../node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./app/styles/Modal.module.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.Modal_modal__H0UQ2 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 31.25%;
+  transform: translate(-50%, -50%);
+  background: #FFFFFF;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  /* Button container for even spacing */
+  /* Button styles */
+  /* Cancel button styles */
+  /* Delete button styles */
+}
+@media (max-width: 768px) {
+  .Modal_modal__H0UQ2 {
+    width: 100%;
+    height: 100%;
+  }
+}
+.Modal_modal__H0UQ2 h2 {
+  font-family: Inter Tight;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.04px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+@media (max-width: 768px) {
+  .Modal_modal__H0UQ2 h2 {
+    max-width: 85%;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+  }
+}
+.Modal_modal__H0UQ2 p {
+  font-family: Inter Tight;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.5411764706);
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+@media (max-width: 768px) {
+  .Modal_modal__H0UQ2 p {
+    max-width: 85%;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+  }
+}
+.Modal_modal__H0UQ2 .Modal_modal__buttons__N3_6e {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .Modal_modal__H0UQ2 .Modal_modal__buttons__N3_6e {
+    flex-direction: column;
+    padding-left: 5%;
+  }
+}
+.Modal_modal__H0UQ2 .Modal_buttoncancel__uhOA8,
+.Modal_modal__H0UQ2 .Modal_buttondelete__TEQFW {
+  width: 185px;
+  height: 51px;
+  padding: 16px 24px;
+  border-radius: 8px;
+  opacity: 1;
+}
+@media (max-width: 768px) {
+  .Modal_modal__H0UQ2 .Modal_buttoncancel__uhOA8,
+  .Modal_modal__H0UQ2 .Modal_buttondelete__TEQFW {
+    width: 90%;
+  }
+}
+.Modal_modal__H0UQ2 .Modal_buttoncancel__uhOA8:hover,
+.Modal_modal__H0UQ2 .Modal_buttondelete__TEQFW:hover {
+  opacity: 0.9;
+}
+.Modal_modal__H0UQ2 .Modal_buttoncancel__uhOA8 {
+  background-color: #E7EEFB;
+  color: #000000;
+  border: none;
+}
+.Modal_modal__H0UQ2 .Modal_buttoncancel__uhOA8:hover {
+  background-color: #D0E1F9;
+}
+.Modal_modal__H0UQ2 .Modal_buttondelete__TEQFW {
+  background: linear-gradient(90deg, #D30707 0%, #F05353 68.65%);
+  color: #FFFFFF;
+  border: none;
+}
+
+/* Backdrop styles */
+.Modal_backdrop__OFubT {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  z-index: 900;
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!../node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!../node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./app/styles/NovaTarefaButton.module.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.NovaTarefaButton_novaTarefaButton__4I72e {
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 24px;
+  gap: 8px;
+  position: absolute;
+  width: 31.25%;
+  height: 51px;
+  left: 34.375%;
+  top: 75%;
+  background: linear-gradient(90deg, #0796D3 0%, #53C0F0 68.65%);
+  border-radius: 8px;
+  border: none; /* Optional: Remove default button border */
+  /* Adicionar nova tarefa */
+  font-family: "Inter Tight";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  cursor: pointer; /* Optional: Change cursor to pointer on hover */
+  /* Optional: Add hover effect */
+}
+.NovaTarefaButton_novaTarefaButton__4I72e:hover {
+  opacity: 0.9; /* Slightly reduce opacity on hover */
+}
+@media (max-width: 768px) {
+  .NovaTarefaButton_novaTarefaButton__4I72e {
+    width: 85%;
+    left: 7.5%;
+    top: 90%;
+  }
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ../node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!../node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!../node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!../node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./app/styles/HomeTarefas.module.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@charset "UTF-8";
+.HomeTarefas_tarefas__0df2E {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Pushes the button to the bottom */
+  align-items: center;
+  padding: 32px;
+  gap: 12px;
+  position: absolute;
+  width: 31.25%;
+  height: 58.07%;
+  left: 34.375%;
+  top: 124px;
+  background: #FFFFFF;
+  border: 1px solid #EAECF0;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 16px;
+}
+@media (max-width: 768px) {
+  .HomeTarefas_tarefas__0df2E {
+    width: 85%;
+    height: 62%;
+    padding: 16px;
+    position: absolute;
+    top: 25%;
+    left: 7.5%;
+    margin: auto;
+  }
+}
+.HomeTarefas_tarefas__title__GzVSM {
+  font-family: "Inter Tight";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 12px;
+  color: rgba(0, 0, 0, 0.54);
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .HomeTarefas_tarefas__title__GzVSM {
+    line-height: 19.36px;
+  }
+}
+.HomeTarefas_tarefas__taskContainer__aUQhf {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  flex-grow: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: 16px;
+}
+@media (max-width: 768px) {
+  .HomeTarefas_tarefas__taskContainer__aUQhf {
+    max-height: 100%;
+  }
+}
+.HomeTarefas_tarefas__finishedTasks__maT5u {
+  font-family: "Inter Tight";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.54);
+  margin-top: 16px;
+  text-align: center;
+}
+.HomeTarefas_tarefas__tasks__29qQ8 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 96%;
+}
+@media (max-width: 768px) {
+  .HomeTarefas_tarefas__tasks__29qQ8 {
+    width: 76%;
+    padding-left: 10%;
+  }
+}
+.HomeTarefas_tarefas__taskItem__k6ty6 {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  width: 95%;
+  border: 1px dashed #D7DDE9;
+  border-radius: 8px;
+  transition: border-color 0.3s;
+}
+@media (max-width: 768px) {
+  .HomeTarefas_tarefas__taskItem__k6ty6 {
+    height: hug 56px;
+  }
+}
+.HomeTarefas_tarefas__taskItem__k6ty6:hover {
+  border: none;
+  background-color: #F7F9FD;
+}
+.HomeTarefas_tarefas__checkbox__MVGpn {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none; /* Remove default checkbox appearance */
+  width: 24px;
+  height: 24px;
+  position: relative; /* Position for absolute children */
+  border: 1.5px solid #B0BBD1;
+  border-radius: 4px;
+  margin-right: 16px;
+  cursor: pointer; /* Change cursor on hover */
+  background-color: #fff; /* Default background color */
+}
+@media (max-width: 768px) {
+  .HomeTarefas_tarefas__checkbox__MVGpn {
+    border-radius: 4;
+  }
+}
+.HomeTarefas_tarefas__checkbox__MVGpn:checked {
+  border: 1.5px solid #0796D3; /* Change border color when checked */
+  background-color: #E0F7FA; /* Background color when checked */
+}
+.HomeTarefas_tarefas__checkbox__MVGpn:checked::after {
+  content: "✔"; /* Check mark symbol */
+  position: absolute;
+  left: 0;
+  top: -2px; /* Adjust as needed */
+  right: 0;
+  bottom: 0;
+  color: #0796D3; /* Color of the check mark */
+  font-size: 20px; /* Adjust size of the check mark */
+  text-align: center; /* Center the check mark */
+  line-height: 24px; /* Align vertically */
+}
+.HomeTarefas_tarefas__taskText__yBtey {
+  flex-grow: 1;
+  font-family: "Inter Tight";
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+}
+.HomeTarefas_tarefas__taskTextFinished__uJFfB {
+  flex-grow: 1;
+  font-family: "Inter Tight";
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.54);
+}
+.HomeTarefas_tarefas__deleteButton__Br01_ {
+  background: none;
+  border: none;
+  cursor: pointer;
+  position: relative;
+}
+.HomeTarefas_tarefas__trashIcon__VZX10 {
+  width: 24px;
+  height: auto;
+}
+
+/* Additional cursor styles (if still needed) */
+.HomeTarefas_cursors__Rtsd5 {
+  position: absolute;
+  width: 17px;
+  height: 17.85px;
+  left: 242px;
+  top: 170px;
+  filter: drop-shadow(0px 1px 1.8px rgba(0, 0, 0, 0.65));
+}
+.HomeTarefas_cursors__shape__AaAxu {
+  position: absolute;
+  width: 17px;
+  height: 17.85px;
+  left: calc(50% - 8.5px + 25.5px);
+  top: calc(50% - 8.925px - 44.07px);
+  background: #FFFFFF;
+  border: 0.75px solid #000000;
+}
+.HomeTarefas_cursors__shape__AaAxu:nth-child(1), .HomeTarefas_cursors__shape__AaAxu:nth-child(2), .HomeTarefas_cursors__shape__AaAxu:nth-child(3) {
+  width: 0.91px;
+  height: 4.9px;
+  background: #000000;
+}
+
+/* Hover effect (if needed) */
+.HomeTarefas_hover__BG_q_ {
+  position: absolute;
+  width: 33px;
+  height: 11px;
+  right: 152px;
+  top: calc(50% - 5.5px - 42.5px);
+  font-family: "Inter Tight";
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 11px;
+  letter-spacing: -0.02em;
+  color: #FF0000;
+}

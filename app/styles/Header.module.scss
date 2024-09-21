@@ -1,0 +1,63 @@
+.header {
+    width: 95%; // Use full width of the viewport
+    position: absolute;
+    left: calc(50% - 95% /2);
+    height: 60px; // Set height
+    display: flex; // Flexbox layout
+    justify-content: space-between; // Space items evenly
+    padding: 7px 20px; // Horizontal padding
+    margin: 0 auto; // Center the header within the page
+    border-bottom: 1px solid #D7DDE9; // Bottom border for separation
+    background: #FFFFFF; // Background color
+    box-sizing: border-box; // Include padding in width calculations
+
+     @media (max-width: 768px) {
+    flex-direction: column; // Stack items vertically
+    width: 85%;
+    top: 24px;
+    left: calc(50% - 85% /2);
+    height: 114px; // Allow dynamic height
+    padding-top: 10px;
+    padding-left: 1px;
+    padding-bottom: 20px;
+  }
+  }
+  
+  .logo {
+    width: 150px; // Set width
+    height: 36px; // Set height
+    
+    //mobile view
+    @media (max-width: 768px){
+      position: left;
+    }
+  }
+  
+  .welcomeMessage {
+    flex-grow: 1; // Allow to take available space
+    text-align: center; // Center text
+    font-family: 'Inter Tight';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29.04px;
+    letter-spacing: -0.02em; // Adjust letter spacing
+    color: #000000;
+
+    @media (max-width: 768px) {
+      font-size: 16px; // Slightly reduce for mobile
+      text-align: left;
+    }
+  }
+  
+  .date {
+    font-family: 'Inter Tight';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em; // Adjust letter spacing
+    color: rgba(0, 0, 0, 0.54);
+
+    @media (max-width: 768px) {
+      font-size: 16px; // Slightly reduce for mobile
+  }
+}

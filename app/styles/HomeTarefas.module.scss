@@ -1,0 +1,208 @@
+.tarefas {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Pushes the button to the bottom */
+  align-items: center;
+  padding: 32px;
+  gap: 12px;
+  position: absolute;
+  width: 31.25%;
+  height: 58.07%;
+  left: calc(50% - 31.25% / 2);
+  top: 124px;
+  background: #FFFFFF;
+  border: 1px solid #EAECF0;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 16px;
+
+  @media (max-width: 768px) {
+    width: 85%; // Wider on mobile
+    height: 62%; // Allow dynamic height
+    padding: 16px; // Reduce padding
+    position: absolute; // Adjust positioning
+    top: 25%; // Adjust top position
+    left: calc( 50% - 85% / 2);
+    margin: auto;
+  }
+
+  &__title {
+    font-family: 'Inter Tight';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 12px;
+    color: rgba(0, 0, 0, 0.54);
+    text-align: center;
+
+    @media (max-width: 768px)
+    {
+      line-height: 19.36px;
+    }
+
+    
+  }
+
+  &__taskContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%; // Ensure it fills the parent width
+    flex-grow: 1; // Allow it to take available space
+    overflow-y: auto; // Enable vertical scrolling
+    overflow-x: hidden; // Prevent horizontal scrolling
+    padding-right: 16px; // Add padding to the right for scrollbar
+
+    @media (max-width: 768px) {
+      max-height: calc(100%); // Limit height for mobile
+    }
+  }
+
+  &__finishedTasks {
+    font-family: 'Inter Tight';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.54);
+    margin-top: 16px; // Space above finished tasks
+    text-align: center; // Center align the title
+  }
+
+  &__tasks {
+    display: flex;
+    flex-direction: column;
+    gap: 12px; // Space between tasks
+    width: 96%; // Made it so the scroll bar won't cut the edge of it
+
+    @media (max-width: 768px) {
+      width: 76%;
+      padding-left: 10%;
+      
+    }
+  }
+
+  &__taskItem {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    width: 95%;
+    border: 1px dashed #D7DDE9; // Default border
+    border-radius: 8px;
+    transition: border-color 0.3s; // Smooth transition
+
+    @media (max-width: 768px) {
+      height: hug (56px);
+      
+    }
+
+    &:hover {
+      border: none; // Remove border on hover
+      background-color: #F7F9FD; // Change background on hover
+    }
+  }
+
+  &__checkbox {
+    appearance: none; /* Remove default checkbox appearance */
+    width: 24px;
+    height: 24px;
+    position: relative; /* Position for absolute children */
+    border: 1.5px solid #B0BBD1;
+    border-radius: 4px;
+    margin-right: 16px; // Space between checkbox and task text
+    cursor: pointer; /* Change cursor on hover */
+    background-color: #fff; /* Default background color */
+
+    @media (max-width: 768px) {
+      border-radius: 4;
+      
+    }
+
+    &:checked {
+      border: 1.5px solid #0796D3; /* Change border color when checked */
+      background-color: #E0F7FA; /* Background color when checked */
+
+      &::after {
+        content: '✔'; /* Check mark symbol */
+        position: absolute;
+        left: 0;
+        top: -2px; /* Adjust as needed */
+        right: 0;
+        bottom: 0;
+        color: #0796D3; /* Color of the check mark */
+        font-size: 20px; /* Adjust size of the check mark */
+        text-align: center; /* Center the check mark */
+        line-height: 24px; /* Align vertically */
+      }
+    }
+  }
+
+  &__taskText {
+    flex-grow: 1;
+    font-family: 'Inter Tight';
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+  }
+
+  &__taskTextFinished {
+    flex-grow: 1;
+    font-family: 'Inter Tight';
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.54);
+  }
+
+  &__deleteButton {
+    background: none; // No background
+    border: none; // No border
+    cursor: pointer; // Pointer cursor on hover
+    position: relative; // Adjust position as needed
+  }
+
+  &__trashIcon {
+    width: 24px; // Icon size
+    height: auto; // Maintain aspect ratio
+  }
+}
+
+/* Additional cursor styles (if still needed) */
+.cursors {
+  position: absolute;
+  width: 17px;
+  height: 17.85px;
+  left: 242px;
+  top: 170px;
+  filter: drop-shadow(0px 1px 1.8px rgba(0, 0, 0, 0.65));
+
+  &__shape {
+    position: absolute;
+    width: 17px;
+    height: 17.85px;
+    left: calc(50% - 17px / 2 + 25.5px);
+    top: calc(50% - 17.85px / 2 - 44.07px);
+    background: #FFFFFF;
+    border: 0.75px solid #000000;
+
+    &:nth-child(1),
+    &:nth-child(2),
+    &:nth-child(3) {
+      width: 0.91px;
+      height: 4.9px;
+      background: #000000;
+    }
+  }
+}
+
+/* Hover effect (if needed) */
+.hover {
+  position: absolute;
+  width: 33px;
+  height: 11px;
+  right: 152px;
+  top: calc(50% - 11px / 2 - 42.5px);
+  font-family: 'Inter Tight';
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 11px;
+  letter-spacing: -0.02em;
+  color: #FF0000;
+}
